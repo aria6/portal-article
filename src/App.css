@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 8px 8px 8px 8px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  border-radius: 2px;
+  margin: 2px 2px 0px 2px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.text-input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 20px;
+  padding: 5px 10px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.text-input {
+  height: 32px;
+}
+
+textarea.text-input {
+  height: 212px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
